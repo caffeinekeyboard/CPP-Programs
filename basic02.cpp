@@ -6,6 +6,6 @@ int main()
         cout<<"enter a :";
         cin>>a;
         cout<<"GeeksforGeeks"<<endl;
-        cout<<a;
+        cout<<"\n"<<a;
         return 0;
 }
