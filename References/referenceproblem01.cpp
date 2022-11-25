@@ -2,7 +2,8 @@
 using namespace std;
 int &fun()//The amphersand is basically giving reference to whatever this function returns when called.
 {
-    static int x=10;//This variable will be alive even after the the function has ended and removed from call stack.
+    static int x=10;//This variable will be alive even after the the function has ended and removed from call stack. If the keyword
+                    //static weren't there then there would be a compiler error.
     return x;
 } 
 int main()
